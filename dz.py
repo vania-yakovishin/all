@@ -9,7 +9,7 @@ class NumberEncryptor:
         return self.number - random.randint(1, 10)
 if __name__ == "__main__":
     encryptor = NumberEncryptor()
-    original_number = 42
+    original_number = 52
     encryptor.encrypt(original_number)
     print("Зашифроване число:", encryptor.number)
     decrypted_number = encryptor.decrypt()

@@ -44,10 +44,10 @@ def outer_function():
 function=outer_function()
 print(function())
 
-def guard_zero_ (operate):
+def guard_zero (operate):
    def inner (x, y):
       if y == 0:
-         print("Cannot divide by 8.")
+         print("Cannot divide by 0.")
          return
       return operate(x, y)
    return inner
